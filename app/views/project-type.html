@@ -1,0 +1,53 @@
+{% extends "layout.html" %} {% block pageTitle %} Project type {% endblock %} {% block beforeContent %}
+<a class="govuk-back-link" href="javascript:window.history.back()">Back</a> {% endblock %} {% block content %}
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+        <form class="form" action="content-main" method="post">
+
+            <div class="govuk-form-group">
+                <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+                        <h1 class="govuk-fieldset__heading">
+                            What type of project will you be delivering?
+                        </h1>
+                    </legend>
+                    <div id="sign-in-hint" class="govuk-hint">
+                        The standards are tailored based on project type to ensure proportionality.
+                    </div>
+                    <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                            <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
+                            <label class="govuk-label govuk-radios__label" for="sign-in">
+                  A simple digital or innovation project
+                </label>
+                            <div id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+                                E.g. An app or software as a service hosted on MOD cloud with low impact on ModNet
+                            </div>
+                        </div>
+                        <div class="govuk-radios__item">
+                            <input class="govuk-radios__input" id="sign-in-2" name="sign-in" type="radio" value="govuk-verify" aria-describedby="sign-in-2-item-hint">
+                            <label class="govuk-label govuk-radios__label" for="sign-in-2">
+                  A larger, more complex project or one with a high impact on ModNet
+                </label>
+                            <div id="sign-in-2-item-hint" class="govuk-hint govuk-radios__hint">
+                                These would include x, y and z type projects - definitions needed
+                            </div>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+            </div>
+
+            <p> If you're not sure what type of project you will be delivering, speak to your case officer for guidance.</p>
+
+            <button class="govuk-button" data-module="govuk-button">Continue</button>
+
+        </form>
+
+    </div>
+</div>
+
+{% endblock %}
