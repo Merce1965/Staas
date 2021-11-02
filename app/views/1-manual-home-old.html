@@ -1,0 +1,58 @@
+{% extends "layout.html" %} {% block pageTitle %} Staas Home {% endblock %} {% block content %}
+
+
+<div style="background-color: #1d70b8 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
+
+    <h1 class="govuk-heading-xl" style="color:white">
+        Welcome to the MOD Standards as a service
+
+        <h5>
+            <h5 class="govuk-heading-s" style="color:white"> The place to find the right guidance to support your project
+                <br>
+                <br>
+                <br>
+                <div>
+                    <input class="govuk-input govuk-input--width-30" id="width-30" name="width-30" type="text" aria-expanded="false" aria-owns="app-site-search__input__listbox" aria-autocomplete="both" aria-describedby="app-site-search__input__assistiveHint" autocomplete="off"
+                        class="app-site-search__input app-site-search__input--default" id="app-site-search__input" name="input-autocomplete" placeholder="Search the standards" type="text" role="combobox"></div>
+
+</div>
+<br>
+<br>
+<br>
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+        <a href="project-type.html" class="govuk-link govuk-link--no-visited-state">JSP604 guidance</a>
+        <p>See how the JSP604 process works and what you need to do to meet the standards</p>
+        <a href="security.html" class="govuk-link govuk-link--no-visited-state">Security in MOD</a>
+        <p>Understand the security standards applicable to your project or service </p>
+        <a href="sustainability.html" class="govuk-link govuk-link--no-visited-state">Sustainability</a>
+        <p>Ensuring your service meets sustainability needs such as biodiversity, carbon reduction, environmental protection and social value</p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <a href="project-needs.html" class="govuk-link govuk-link--no-visited-state">Project needs and requirements</a>
+        <p>What you'll need for areas such as connectivity, architecture, service management and safety</p>
+        <a href="delivery.html" class="govuk-link govuk-link--no-visited-state">Delivery planning</a>
+        <p>understand areas such as scope, governance and risk management </p>
+        <a href="foundryway.html" class="govuk-link govuk-link--no-visited-state">The Foundry way</a>
+        <p>Access a range of tools and guidance in the Foundry way </p>
+    </div>
+    <div class="govuk-grid-column-one-third">
+        <a href="commercial.html" class="govuk-link govuk-link--no-visited-state">Government Commercial standards</a>
+        <p>Guidance including business cases, procurement strategy, funding, managing budgets and contract management</p>
+        <a href="#" class="govuk-link govuk-link--no-visited-state">The service standard</a>
+        <p>Understand the Government Service Standards and how to meet them</p>
+    </div>
+
+</div>
+<hr>
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+        <a href="#" class="govuk-link govuk-link--no-visited-state">Communities of practice</a>
+        <p>You can view the communities of practice to find more learning resources and connect with people across the MOD and wider government</p>
+    </div>
+    <div class="govuk-grid-column-one-half">
+        <a href="https://www.gov.uk/government/publications/joint-service-publication-jsp-604-network-rules" class="govuk-link govuk-link--no-visited-state">JSP604 rules list</a>
+        <p>View the list of JSP604 rules and the detail within each one</p>
+    </div>
+</div>
+{% endblock %}
