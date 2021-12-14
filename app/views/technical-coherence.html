@@ -1,46 +1,97 @@
-{% extends "layout.html" %} {% block pageTitle %} Tech guidance {% endblock %} {% block beforeContent %}
-<a class="govuk-back-link" href="javascript:window.history.back()">Back</a> {% endblock %} {% block content %}
+{% extends "layout.html" %} {% block pageTitle %} Tech guidance {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
 
-<div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-
-        <h1 class="govuk-heading-xl">
-            Technical coherence
-        </h1>
-
-        <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
-            <div class="govuk-notification-banner__header">
-                <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
-                    Important
-                </h2>
-            </div>
-            <div class="govuk-notification-banner__content">
-                <p class="govuk-notification-banner__heading">
-                    This page is currently being developed and new guidance will appear here soon. In the meantime, relevant links to technical coherence guidance for JSP604 are on this page.
-
-                </p>
-            </div>
-
-
-
-        </div>
-        <p>If you have any feedback or ideas on how to improve this topic, please contect the team at <a href="/url/of/onward/page">standards@mod.gov.uk</a>.</p>
-        <h2 class="govuk-heading-l">
-            Techical coherence guidance by JSP604 rule area
-        </h2>
-
-
-
-        <p><a href="/url/of/onward/page">Rule 3: ICT shall be developed with respect to the relevant domain architecture</a></p>
-        <p><a href="/url/of/onward/page">Rule 4: ICT shall be compliant with quality of service (QOS) policy</a></p>
-        <p><a href="/url/of/onward/page">Rule 5: ICT shall be compliant with domain name system (DNS) policy</a></p>
-        <p><a href="/url/of/onward/page">Rule 6: ICT shall be compliant with internet protocol (IP) policy</a></p>
-        <p><a href="/url/of/onward/page">Rule 7: ICT shall be compliant with messaging policy</a></p>
-        <p><a href="/url/of/onward/page">Rule 8: ICT shall be compliant with electronic directory services policy</a></p>
-        <p><a href="/url/of/onward/page">Rule 9: ICT shall be developed using the cross domain solutions approach defined by ISS Des Architecture</a>.</p>
-        <p><a href="/url/of/onward/page">Rule 13: ICT shall be compliant with information management policy</a></p>
-
+<div class="govuk-width-container ">
+    <div class="govuk-phase-banner">
+        <p class="govuk-phase-banner__content">
+            <strong class="govuk-tag govuk-phase-banner__content__tag">
+    EXPERIMENTAL
+  </strong>
+            <span class="govuk-phase-banner__text">
+    This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+  </span>
+        </p>
     </div>
-</div>
+    <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+                <h1 class="govuk-heading-xl">
+                    Technical delivery
+                </h1>
+                <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+                    <div class="govuk-notification-banner__header">
+                        <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+                            Important
+                        </h2>
+                    </div>
+                    <div class="govuk-notification-banner__content">
+                        <p class="govuk-notification-banner__heading">We are working to improve the guidance on this page and will publish updates as they are available.</p>
+                    </div>
+                </div>
+                <h2 class="govuk-heading-l">Guidance for your service</h2>
+                <p>You must follow all <a href="/1-manual-home-launch">relevant standards</a> to gain assurance for your service. </p>
+                <p>These JSP 604 rules explain how to deliver through life management in your service.</p>
+                <ol class="govuk-list">
+                    <li class="app-service-standard-point" id="criterion-1">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 3</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be developed with respect to the relevant domain architecture</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-2">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 4</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with quality of service (QOS) policy</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-3">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 5</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with domain name system (DNS) policy</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-4">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 6</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with internet protocol (IP) policy</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-4">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 7</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with messaging policy</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-4">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 8</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with electronic directory services policy</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-4">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 9</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be developed using the cross domain solutions approach defined by ISS Des Architecture</a></p>
+                        </div>
+                    </li>
+                    <li class="app-service-standard-point" id="criterion-4">
+                        <h2 class="govuk-heading-m govuk-!-margin-bottom-3 app-service-standard-point__title">
+                            <span class="app-service-standard-point__number">Rule 13</span></h2>
+                        <div class="app-service-standard-point__details">
+                            <p class="govuk-body app-service-standard-point__link"><a class="govuk-link" href="#">ICT shall be compliant with information management policy</a></p>
+                        </div>
+                    </li>
 
-{% endblock %}
+
+
+            </div>
+        </div>
+
+        {% endblock %}

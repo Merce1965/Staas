@@ -1,157 +1,170 @@
 {% extends "layout.html" %} {% block pageTitle %} Staas Home {% endblock %} {% block content %}
 
-<div class="govuk-width-container">
+<div class="govuk-width-container ">
+
+    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main" style="padding-top: 0px;">
 
 
-    <main class="govuk-main-wrapper">
+        <div class="govuk-phase-banner">
+            <p class="govuk-phase-banner__content">
+                <strong class="govuk-tag govuk-phase-banner__content__tag">
+    EXPERIMENTAL
+  </strong>
+                <span class="govuk-phase-banner__text">
+    This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+  </span>
+            </p>
+        </div>
 
-        <div style="height:350px; width:100%; padding-right:3%; background-color: #1d70b8 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
-
-            <div class="govuk-grid-row">
-                <div class="govuk-grid-column-two-thirds">
-                    <div style="background-color: #1d70b8 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
-
-                        <h1 class="govuk-heading-xl" style="color:white">
-                            Welcome to Standards as a service
+        <div class="govuk-width-container">
 
 
-                            <p class="govuk-heading-s" style="color:white"> You'll find all the
-                                <stong>standards and guidance</stong> for your digital products and services here. And we'll show you how to meet the ones that apply to your project.
-                                <br>
-                                <br>
-                                <br>
-                                <div>
+            <main class="govuk-main-wrapper">
 
-                                    <style>
-                                        .search-box {
-                                            box-sizing: border-box;
-                                            display: flex;
-                                            width: 90%;
-                                            background-color: #ffffff;
-                                        }
-                                        
-                                        .search-box input {
-                                            width: 100%;
-                                            height: 40px;
-                                            padding: 6px;
-                                            margin: 0;
-                                            border: solid 1px #bfc1c3;
-                                            border-right: 0;
-                                            box-sizing: border-box;
-                                            font-family: 'nta', Arial, sans-serif;
-                                            font-weight: 400;
-                                            text-transform: none;
-                                            font-size: 16px;
-                                            line-height: 1.75;
-                                            background: #ffffff;
-                                            border-radius: 0;
-                                            -webkit-appearance: none;
-                                        }
-                                        
-                                        .search-box input:focus {
-                                            outline: 3px solid #ffdd00;
-                                        }
-                                        
-                                        .search-box button {
-                                            background-color: black;
-                                            border: 0;
-                                            display: block;
-                                            color: #ffffff;
-                                            position: relative;
-                                            padding: 10px;
-                                            width: 45px;
-                                            height: 40px;
-                                            background-repeat: no-repeat;
-                                            background-position: 2px 50%;
-                                            text-indent: -999em;
-                                            overflow: hidden;
-                                        }
-                                        
-                                        .search-box button:focus {
-                                            outline: 3px solid #ffdd00;
-                                        }
-                                    </style>
+                <div style="height:300px; width:100%; padding-right:3%; background-color: #1d70b8 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
 
-                                    <div class="search-box">
-                                        <input placeholder="Search the Standards" class="govuk-input" type="search" value="" /><button>
-                    <svg
-                      version="1.1"
-                      fill="currentColor"
-                      width="16"
-                      height="100%"
-                      viewBox="0 0 57 57"
-                      style="display: block"
-                    >
-                      <title>Search</title>
-                      <path
-                        d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"
-                      ></path>
-                    </svg>
-                  </button>
+                    <div class="govuk-grid-row">
+                        <div class="govuk-grid-column-two-thirds">
+                            <div style="/*! background-color: #1d70b8 ; */ padding: 10px; border: 0px solid rgb(0, 13, 128);">
+
+                                <h1 class="govuk-heading-xl" style="color:white">Design and build digital services for Defence
+                                    <p class="govuk-body" style="color:white;padding-left: 0px;margin-bottom: 20px;margin-top: 20px;">Guidance to help ensure your digital service meets our standards.</p>
+
+                                    <div style="border-top-style: solid;border-top-width: 0px;padding-top: 20px;">
+
+                                        <style>
+                                            .search-box {
+                                                box-sizing: border-box;
+                                                display: flex;
+                                                width: 90%;
+                                                background-color: #ffffff;
+                                            }
+                                            
+                                            .search-box input {
+                                                width: 100%;
+                                                height: 40px;
+                                                padding: 6px;
+                                                margin: 0;
+                                                border: solid 1px #bfc1c3;
+                                                border-right: 0;
+                                                box-sizing: border-box;
+                                                font-family: 'nta', Arial, sans-serif;
+                                                font-weight: 400;
+                                                text-transform: none;
+                                                font-size: 16px;
+                                                line-height: 1.75;
+                                                background: #ffffff;
+                                                border-radius: 0;
+                                                -webkit-appearance: none;
+                                            }
+                                            
+                                            .search-box input:focus {
+                                                outline: 3px solid #ffdd00;
+                                            }
+                                            
+                                            .search-box button {
+                                                background-color: black;
+                                                border: 0;
+                                                display: block;
+                                                color: #ffffff;
+                                                position: relative;
+                                                padding: 10px;
+                                                width: 45px;
+                                                height: 40px;
+                                                background-repeat: no-repeat;
+                                                background-position: 2px 50%;
+                                                text-indent: -999em;
+                                                overflow: hidden;
+                                            }
+                                            
+                                            .search-box button:focus {
+                                                outline: 3px solid #ffdd00;
+                                            }
+                                        </style>
+
+                                        <div class="search-box">
+                                            <input placeholder="Search the Standards" class="govuk-input" type="search" value=""><button>
+                <svg version="1.1" fill="currentColor" width="16" height="100%" viewBox="0 0 57 57" style="display: block">
+                  <title>Search</title>
+                  <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"></path>
+                </svg>
+              </button>
+                                        </div>
+
                                     </div>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="govuk-grid-column-one-third">
+                            <div style="background-color: #000000 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
 
-                                </div>
+                                <h3 class="govuk-heading-m" style="color:white;margin-bottom: 40px;">
+                                    Popular topics
+                                    <br>
+                                    <br>
+                                    <ul class="govuk-list">
+                                        <li><a href="https://www.gov.uk/service-manual/service-standard" class="govuk-body govuk-!-font-size-21" style="color: #ffffff">GDS Service Standard</a></li>
+                                        <li><a href="https://www.ncsc.gov.uk/" class="govuk-body govuk-!-font-size-21" style="color: #ffffff">National Cyber Security Centre</a></li>
+                                        <li><a href="https://www.axelos.com/certifications/itil-service-management/itil-4-foundation" class="govuk-body govuk-!-font-size-21" style="color: #ffffff">ITIL version 4</a></li>
+
+                                    </ul>
+
+                                </h3>
+                            </div>
+                        </div>
+
+
                     </div>
+
                 </div>
-                <div class="govuk-grid-column-one-third">
-                    <div style="background-color: #000000 ; padding: 10px; border: 0px solid rgb(0, 13, 128);">
+            </main>
 
-                        <h3 class="govuk-heading-m" style="color:white">
-                            Popular links
-                            <br>
-                            <p><a href="#" class="govuk-link govuk-link--no-visited-state" style="color: #ffffff">The service standard</a></p>
-                            <p><a href="#" class="govuk-link govuk-link--no-visited-state" style="color: #ffffff">NCSC website</a></p>
-
-                    </div>
-                </div>
-
+        </div>
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-third">
+                <a href="business-requirements.html" class="govuk-body govuk-!-font-size-24">Business requirements</a>
+                <br>
+                <br>
+                <p>Define the scope for your service including processes, management information and measuring performance</p>
+                <a href="technical-coherence.html" class="govuk-body govuk-!-font-size-24">Technical delivery</a>
+                <br>
+                <br>
+                <p>Choose the right technology, development, integration, hosting, testing and maintenance solutions</p>
 
             </div>
+            <div class="govuk-grid-column-one-third">
+                <a href="information.html" class="govuk-body govuk-!-font-size-24">Data</a>
+                <br>
+                <br>
+                <p>Capture, curate, share and exploit data effectively and consistently. Follow the 6 data principles to comply with our Data Policy</p>
+                <a href="through-life-management.html" class="govuk-body govuk-!-font-size-24">Through life management</a>
+                <br>
+                <br>
+                <p>Manage project capabilities from identifying what is required, through to disposal of assets</p>
+
+            </div>
+            <div class="govuk-grid-column-one-third">
+                <a href="security.html" class="govuk-body govuk-!-font-size-24">Security</a>
+                <br>
+                <br>
+                <p>Understand the security standards that your project or service must meet
+                </p>
+            </div>
+
+        </div>
+        <hr style="margin-bottom: 20px;border-bottom-width: 0px;border-bottom-style: solid;">
+        <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+                <a href="https://www.gov.uk/government/publications/joint-service-publication-jsp-604-network-rules" class="govuk-body govuk-!-font-size-24" style="border-top-style: solid;margin-top: 0px;border-top-width: 0px;">View all JSP 604 rules</a>
+                <br>
+                <br>
+                <p>JSP 604 applies to all systems interacting with Ministry of Defence information and communication technology (ICT) systems.</p>
+            </div>
+            <div class="govuk-grid-column-one-half">
+
+            </div>
+        </div>
 
     </main>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-third">
-            <a href="jsp604-step.html" class="govuk-link govuk-link--no-visited-state">JSP604 guidance: Step by step</a>
-            <p>Follow the guidance to ensure your project meets the MOD standards</p>
-            <a href="security.html" class="govuk-link govuk-link--no-visited-state">Security in MOD</a>
-            <p>Understand the security standards that your project or service must meet </p>
-            <a href="sustainability.html" class="govuk-link govuk-link--no-visited-state">Sustainability</a>
-            <p>Ensure your service meets sustainability needs such as biodiversity, carbon reduction, environmental protection and social value</p>
-        </div>
-        <div class="govuk-grid-column-one-third">
-            <a href="project-needs.html" class="govuk-link govuk-link--no-visited-state">Project needs and requirements</a>
-            <p>Make sure your project covers connectivity, architecture, service management and safety concerns</p>
-            <a href="delivery.html" class="govuk-link govuk-link--no-visited-state">Delivery planning</a>
-            <p>Understand how to successfully deliver your project by managing scope, governance and risk
-            </p>
-            <a href="foundryway.html" class="govuk-link govuk-link--no-visited-state">The Foundry way</a>
-            <p>Find out how to set up digital services and work in partnership with fellow digital experts throughout MOD, and use the Foundry Way’s designs, tools and templates for your projects </p>
-        </div>
-        <div class="govuk-grid-column-one-third">
-            <a href="commercial.html" class="govuk-link govuk-link--no-visited-state">Government Commercial standards</a>
-            <p>Understand procurement, business cases, funding, managing budgets and contract management
-            </p>
-            <a href="#" class="govuk-link govuk-link--no-visited-state">The service standard</a>
-            <p>Follow the Service Standard to create and run services that meet the needs of your users
-            </p>
-        </div>
-
-    </div>
-    <hr>
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-            <a href="#" class="govuk-link govuk-link--no-visited-state">Communities of practice</a>
-            <p>Learn more about best practice by connecting with colleagues within MOD and across wider government.
-            </p>
-        </div>
-        <div class="govuk-grid-column-one-half">
-            <a href="https://www.gov.uk/government/publications/joint-service-publication-jsp-604-network-rules" class="govuk-link govuk-link--no-visited-state">JSP604 rules list</a>
-            <p>View the list of JSP604 rules and the detail within each one</p>
-        </div>
-    </div>
-    {% endblock %}
+</div>
+{% endblock %}
