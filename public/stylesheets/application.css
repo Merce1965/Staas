@@ -4100,7 +4100,10 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: -10px;
     padding-top: 10px;
     border-bottom: 10px solid #4d2942;
-    border-bottom-color: #4d2942 !important;
+}
+
+.govuk-header__container {
+    border-bottom-color: #4d2942 !important; 
 }
 
 .govuk-header__container:after {
