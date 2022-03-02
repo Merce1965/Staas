@@ -4100,6 +4100,7 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: -10px;
     padding-top: 10px;
     border-bottom: 10px solid #4d2942;
+    border-bottom-color: #4d2942 !important;
 }
 
 .govuk-header__container:after {
@@ -4599,8 +4600,8 @@ only screen and (min-resolution: 2dppx) {
     font-size: 1rem;
     line-height: 1.25;
     margin-bottom: 30px;
-    border: 5px solid #1d70b8;
-    background-color: #1d70b8;
+    border: 5px solid #4d2942;
+    background-color: #4d2942;
 }
 
 @media print {
