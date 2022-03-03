@@ -4099,7 +4099,7 @@ only screen and (min-resolution: 2dppx) {
     position: relative;
     margin-bottom: -10px;
     padding-top: 10px;
-    border-bottom: 0px solid #4d2942;
+    border-bottom: 10px solid #4d2942;
 }
 
 .govuk-header__container {
