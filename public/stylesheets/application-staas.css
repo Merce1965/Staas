@@ -5034,7 +5034,7 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .govuk-phase-banner {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     border-bottom: 1px solid #4d2942;
 }
