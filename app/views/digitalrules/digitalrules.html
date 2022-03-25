@@ -1,5 +1,7 @@
 {% extends "layout.html" %} {% block pageTitle %} Digital Rules {% endblock %} {% block beforeContent %}
-<a class="govuk-back-link" href="javascript:window.history.back()">Back</a> {% endblock %} {% block content %}
+<a class="govuk-back-link" href="javascript:window.history.back()">Back</a> {% endblock %}
+
+{% block content %}
 
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
@@ -21,21 +23,6 @@
           </p>
         </div>
         
-        <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
-            <div class="govuk-notification-banner__header">
-                <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
-                    Important
-                </h2>
-            </div>
-            <div class="govuk-notification-banner__content">
-                <p class="govuk-notification-banner__heading">
-                    Prototype - Version C. The Digital Rules are currently in early development, at an alpha stage.<br/>
-                    We're testing this latest prototype to understand whether it meets the needs of Defence, and it will iterate based on what we discover.<br/><br/>
-                    We welcome your feedback on this prototype.
-                </p>
-            </div>
-
-        </div>
         <p>If you have any feedback or ideas on how to improve this topic, please contect the team at <a href="/url/of/onward/page">standards@mod.gov.uk</a>.</p>
         <h2 class="govuk-heading-l">
             Security guidance by JSP604 rule area
@@ -43,5 +30,11 @@
         <p><a href="/url/of/onward/page">Rule 9: ICT shall be developed using the cross domain solution approach defined by ISS Des Architecture</a></p>
         <p><a href="/url/of/onward/page">Rule 10: ICT shall be accredited in accordance with current policy</a></p>
         <p><a href="/url/of/onward/page">Rule 11: ICT shall comply with Op AUGITE requirements</a></p>
-
-        {% endblock %}
+        
+        <div class="govuk-grid-column-one-third">
+            <h2 class="govuk-heading-m">One-third column</h2>
+            <p class="govuk-body">This is a paragraph inside a one-third wide column</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
