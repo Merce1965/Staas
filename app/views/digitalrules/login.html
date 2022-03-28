@@ -1,1 +1,26 @@
+{% extends "layout.html" %} {% block pageTitle %} Rule 3 - Recognise data as a strategic asset {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
 
+<div class="govuk-width-container">
+  
+  <main class="govuk-main-wrapper">
+    
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+
+        <div class="govuk-form-group">
+          <input class="govuk-input" id="username" name="username" type="text" placeholder="Username or Service/Staff Number">
+          <input class="govuk-input" id="password" name="password" type="password" placeholder="Password">
+        </div>
+        
+        <button class="govuk-button" data-module="govuk-button">
+          Sign in
+        </button>
+
+      </div>
+    </div>
+
+  </main>
+  
+</div>
+
+{% endblock %}
