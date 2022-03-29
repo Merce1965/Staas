@@ -1,1 +1,161 @@
+{% extends "layout.html" %} {% block pageTitle %} Rule 4 - Make your service secure {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
 
+<div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Version C. The Digital Rules are currently in early development, at an <strong class="govuk-tag govuk-tag--purple">alpha</strong> stage. <br/>
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/1-manual-home-launch">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/digitalrules/digitalrules">Digital Rules</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Rule 4 - Make your service secure</a>
+    </li>
+  </ol>
+</div>
+
+<div class="govuk-width-container">
+  
+  <main class="govuk-main-wrapper">
+    
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <span class="govuk-caption-xl" style="color:#505a5f">Digital Rules</span>
+        <h1 class="govuk-heading-xl">Rule 4 - Make your service secure</h1>
+        <p class="govuk-body-l">Support the implementation of a defence in depth approach to Security.</p>
+
+      </div>
+    </div>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        
+        <p id="digitalrules" class="govuk-body">
+            This rule forms part of the <a class="govuk-link" href="/digitalrules/digitalrules">Defence Digital Rules</a>, as embodied in the <a class="govuk-link" href="/1-manual-home-launch">Defence Service Manual</a>.
+        </p>
+        <p class="govuk-body">
+            Our architectural standards and policies are designed to make your service secure throughout its lifecycle.
+        </p>
+        <h3 class="govuk-heading-m">Secure by Design principles</h3>
+        <p class="govuk-body">
+            To help ensure your service is secure, you should read and understand our Secure by Design principles.
+        </p>
+        <h3 class="govuk-heading-s">Principle 1: Context</h3>
+        <p class="govuk-body">
+           Understand the programme’s cyber-security context and how it will use and manage data.
+        </p>
+        <h3 class="govuk-heading-s">Principle 2: Planning</h3>
+        <p class="govuk-body">
+           Understand the programme’s security workstream and perform initial planning. This includes assessing the cyber threat and defining and validating any security requirements.
+        </p>
+
+        <h2 class="govuk-heading-m">What you must do</h2>
+        <p class="govuk-body">
+          When developing a new, or changing an existing digital service, you must:
+        </p>
+
+        <ul class="govuk-list govuk-list--bullet">
+          <li>
+            submit your project idea to the <a class="govuk-link" href="#">Architecture Triage Board</a>
+          </li>
+          <li>
+            follow the guidance in our <a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/DDTechnology/SitePages/Common-Technology-Architecture-(CTA)-Programme.aspx">Common Technology Architecture</a>
+          </li>
+          <li>
+            follow the guidance in The Foundry Way <span class="govuk-tag govuk-tag--yellow">(coming soon)</span>
+          </li>
+          <li>
+            follow the <a class="govuk-link" href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a>
+          </li>
+          <li>
+            follow the <a class="govuk-link" href="https://www.gov.uk/service-manual/service-standard">GDS Service Standard</a> where MOD specific guidance does not exist
+          </li>
+          <li>
+            follow the Defence Digital <a class="govuk-link" href="https://modgovuk.sharepoint.com/:w:/r/teams/23245/_layouts/15/Doc.aspx?sourcedoc=%7bD10A47F0-1B80-46FD-93B1-18C5F8154D24%7d&file=20201217%20Service%20Management%20Framework%20v2.0.docx&action=default&mobileredirect=true">Service Management Framework (SMF)</a> when designing services with Managed Service Providers (MSPs)
+          </li>
+          <li>
+            follow <a class="govuk-link" href="https://jsp604.r.mil.uk/index.php/JSP_604">JSP 604</a> for assurance requirements, technical and product standards, specifically:
+          </li>
+          <li style="list-style: none;">
+            <ul>
+              <li>
+                <a class="govuk-link" href="#">Rule 3, ICT shall be developed with respect to the relevant domain architecture</a>, solutions must obtain compliance approval from each of the relevant Domain Authorities
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 4, ICT shall be compliant with quality of service (QOS) policy</a>, your solution must comply with the IP Quality of Service (QoS) directive and implement appropriate QoS measures
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 5, ICT shall be compliant with domain name system (DNS) policy</a>, your solution must comply with MOD DNS policy
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 6, ICT shall be compliant with internet protocol (IP) policy</a>, your solution must be IPv4 based and IPv6 compatible in line with MOD policy
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 7, ICT shall be compliant with messaging policy</a>, your solution must comply with MOD messaging policy
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 8, ICT shall be compliant with electronic directory services policy</a>, your solution must comply with MOD electronic directory services policy
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 19, ICT shall comply with spectrum management requirements</a>, your solution must have Joint Spectrum Authority (JSA) approval for any system that utilises electromagnetic transmissions
+              </li>
+              <li>
+                <a class="govuk-link" href="#">Rule 20, ICT shall comply with electromagnetic integration requirements</a>, your solution must take necessary measures to protect any Electromagnetic Integration aspects
+              </li>
+            </ul>
+          </li>
+          <li>
+            follow the approaches in the <a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/DDDigEnab-TeamSite/Shared%20Documents/Forms/AllItems.aspx?id=/sites/DDDigEnab-TeamSite/Shared%20Documents/Arch%20Kanban/01.%20Future%20Defence%20EA/11.%20Networks%20Reference%20Architecture/Network%20Reference%20Architecture%20v1.0.pdf&parent=/sites/DDDigEnab-TeamSite/Shared%20Documents/Arch%20Kanban/01.%20Future%20Defence%20EA/11.%20Networks%20Reference%20Architecture">Network Reference Architecture</a>
+          </li>
+          <li>
+            follow <a class="govuk-link" href="http://defenceintranet.diif.r.mil.uk/libraries/library1/DINSJSPS/20180416.1/JSP935_Part1.pdf">JSP 935</a> for any equipment acquisition project that has a software element (including FMS, OTS, bespoke and open source)
+          </li>
+        </ul>
+      </div>
+      
+      <div class="govuk-grid-column-one-third">
+        <aside class="app-related-items" role="complementary">
+          <h3 class="govuk-heading-s">Related Content</h3>
+          <ul class="govuk-list govuk-body-s">
+            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/:w:/r/teams/23245/_layouts/15/Doc.aspx?sourcedoc=%7bD10A47F0-1B80-46FD-93B1-18C5F8154D24%7d&file=20201217%20Service%20Management%20Framework%20v2.0.docx&action=default&mobileredirect=true">Defence Digital Service Management Framework</a></li>
+            <li><a class="govuk-link" href="https://pubs.opengroup.org/architecture/archimate3-doc/">ArchiMate specification</a></li>
+          </ul>
+        </aside>
+      </div>
+    
+    </div>
+ 
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+          <div class="govuk-notification-banner__header">
+            <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+              Read more
+            </h2>
+          </div>
+          <div class="govuk-notification-banner__content">
+            <p class="govuk-notification-banner__heading govuk-!-text-align-right">
+              Next: Digital Rules point 2<br/>
+              <a class="govuk-notification-banner__link" href="realiseinteroperability.html">Realise interoperability</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  
+</div>
+
+{% endblock %}
