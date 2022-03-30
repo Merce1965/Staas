@@ -65,42 +65,49 @@
           <li><b>Identify and empower a Product Owner:</b> you must appoint a product owner who is accountable as their primary role for how well the product meets user needs</li>
           <li><b>Deeply understand user needs:</b> you must engage with real and/or expected users to identify and understand their underlying needs</li>
           <li><b>Prioritize rapidly delivering value to users:</b> you must define a minimum viable product (MVP), which should be the smallest release possible to deliver a solution that solves a user need</li>
+          <li><b>Use version control:</b> you must use a MOD managed version control system, such as Git, for all source code required to deploy and run a given solution, including both infrastructure-as-code and application code</li>
+          <li><b>Track work consistently:</b> you must have a MOD managed central location for tracking current and future work, for example Jira as the work tracking tool and Confluence for document design details and decisions</li>
+          <li><b>Automate testing:</b> you must include automated tests that verify functionality as part of the continuous integration / continuous delivery (CI/CD) pipeline</li>
+          <li><b>Provide support and feedback mechanisms:</b> you must be able to measure support issues and provide users a way to feedback to the team and get responses back within a reasonable timeframe</li>
+          <li><b>Document and share APIs:</b> you must document APIs using industry standard API-Specification formats (i.e. OpenAPI, RAML)</li>
+          <li><b>Automate deployments:</b> you must be able to automatically deploy the solution to non-production and production environments using a MOD managed CI/CD pipeline, for example Jenkins</li>
+          <li><b>Automate monitoring:</b> you must have visibility into how systems are working through enterprise application performance monitoring (APM) tools, to understand how your solution is performing and changing over time</li>
+          <li><b>Automate alerting and incident response:</b> solutions must integrate with enterprise monitoring tools, and be self-healing to the maximum extent possible</li>
+          <li><b>Use data to drive decisions:</b> you must have continuous ways to measure how a product is performing for users, and use these metrics for decision making on the product backlog and roadmap</li>
+          <li><b>Iterate and improve continually:</b> continuous improvement means you must capture and respond to changes in user needs, technology, or government policy throughout the lifetime of the product</li>
         </ul>
+        <p>To learn more about using agile, iterative methods, read the <a class="govuk-link" href="https://www.gov.uk/service-manual/agile-delivery">Government Service Standard</a>.</p>
         
         <h2 class="govuk-heading-m">What you must do</h2>
-        <p class="govuk-body">To help ensure we deliver value and quality in our services, you must:</p>
+        <p class="govuk-body">To help ensure your service meets user's needs, and to reduce the risk of delivering the wrong thing, you must:</p>
         <ul class="govuk-list govuk-list--bullet">
           <li>
-            follow <a class="govuk-link" href="https://www.gov.uk/government/publications/joint-service-publication-jsp-604-network-rules">JSP 604</a> rules relating to Reuse:
-          </li>
-          <li style="list-style: none;">
-            <ul>
-              <li>
-                <a class="govuk-link" href="https://www.gov.uk/government/publications/joint-service-publication-jsp-604-network-rules/rule-1-ict-shall-be-reused-where-available">Rule 1, ICT shall be reused where available</a>, you must reuse Defence and Cross Government ICT where available
-              </li>
-            </ul>
+            follow the <a class="govuk-link" href="https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework">DDaT Capability Framework</a>
           </li>
           <li>
-            use our existing digital platforms, such as DevSecOps, MODCloud, API Management
+            follow the <a class="govuk-link" href="https://www.gov.uk/service-manual/service-standard">Government Service Standard</a>
           </li>
           <li>
-            select products from our approved product catalogue, if a common digital platform is not available
+            follow the <a class="govuk-link" href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a>
           </li>
           <li>
-            services not currently in use in the MOD may still be available under existing contracts, these must be leveraged before seeking to procure or build new
+            create a 'learn fast' culture which moves away from blame and understands that small managed 'failures' are good practice
           </li>
           <li>
-            follow <a class="govuk-link" href="https://www.wifi.service.gov.uk/">GovWifi guidance</a> if you are setting up a new Wi-Fi network
+            regularly carry out user-centred design practices, such as user research, to understand user needs and incorporate these into your change cycle
           </li>
           <li>
-            re-use existing architecture building blocks for your service, for example the Defence Digital Reference Architecture 
+            plan for change and iterate quickly; do not aim for quarterly releases unless these are the most appropriate for your service, aim to get changes out as quickly as possible
           </li>
           <li>
-            aim to reduce our carbon footprint by choosing more sustainable products where they meet your requirements, favour suppliers committed to achieving Net Zero by 2050
+            prioritise your product backlog to ensure the time box or sprint aims are clearly understood and delivered; consider using the <a class="govuk-link" href="https://kanomodel.com/about-the-kano-model/#:~:text=The%20Kano%20Model%20is%20a%20product%20or%20service%2cSurvey%3b%20people%20have%20called%20it%20multiple%20different%20names.">Kano model</a> to help to achieve this
+          </li>
+          <li>
+            engage with users and stakeholders regularly about your service, for example, using show and tell sessions
           </li>
         </ul>
         <p class="govuk-body">
-          A <a class="govuk-link" href="#">Core technology reference list</a> is being curated and will soon be made available showcasing recommended products and solutions used across the Defence estate.
+          The Digital Foundry is producing a standard DevSecOps environment for use across defence, please contact them to understand how best to build digital services based on current environment availability.
         </p>
       </div>
       
@@ -108,16 +115,7 @@
         <aside class="app-related-items" role="complementary">
           <h3 class="govuk-heading-s">Related Content</h3>
           <ul class="govuk-list govuk-body-s">
-            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/DDTechnology/SitePages/Common-Technology-Architecture-(CTA)-Programme.aspx">Common Technology Architecture</a></li>
-            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/DDDigEnab-TeamSite/Shared%20Documents/Forms/AllItems.aspx?id=/sites/DDDigEnab-TeamSite/Shared%20Documents/Arch%20Kanban/01.%20Future%20Defence%20EA/11.%20Networks%20Reference%20Architecture/Network%20Reference%20Architecture%20v1.0.pdf&parent=/sites/DDDigEnab-TeamSite/Shared%20Documents/Arch%20Kanban/01.%20Future%20Defence%20EA/11.%20Networks%20Reference%20Architecture">Network Reference Architecture</a></li>
-            <li><a class="govuk-link" href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a></li>
-            <li><a class="govuk-link" href="https://www.gov.uk/service-manual/service-standard">GDS Service Standard</a></li>
-            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/:w:/r/teams/23245/_layouts/15/Doc.aspx?sourcedoc=%7bD10A47F0-1B80-46FD-93B1-18C5F8154D24%7d&file=20201217%20Service%20Management%20Framework%20v2.0.docx&action=default&mobileredirect=true">Defence Digital Service Management Framework</a></li>
-            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/DDTechnology/SitePages/604-work.aspx">Standards as a Service</a></li>
-            <li><a class="govuk-link" href="https://modgovuk.sharepoint.com/sites/defnet/HOCS/Pages/Defence-Security,-Resilience-and-Business-Continuity.aspx">JSP 440</a></li>
-            <li><a class="govuk-link" href="https://gbr01.safelinks.protection.outlook.com/?url=https://modgovuk.sharepoint.com/sites/IntranetFinanceHub&data=04%7c01%7cThomas.Snelgrove100%40mod.gov.uk%7cf3c4aa297681446c112708d98c94ae25%7cbe7760ed5953484bae95d0a16dfa09e5%7c0%7c0%7c637695392460393830%7cUnknown%7cTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7c1000&sdata=izsK9K0HNjIA67dl4E4t%2B9045YRzVd2PrRb13EUqff8%3D&reserved=0">Finance Hub</a></li>
-            <li><a class="govuk-link" href="https://gbr01.safelinks.protection.outlook.com/?url=https://modgovuk.sharepoint.com/teams/19091&data=04%7c01%7cAlyson.Fielding105%40mod.gov.uk%7c9c927e0700454a3ba33708d9985e6a2b%7cbe7760ed5953484bae95d0a16dfa09e5%7c0%7c0%7c637708353531752897%7cUnknown%7cTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7c1000&sdata=wOldAfX3JgF3TEztWAHbe7qULoORRuaRSSKJfnMEjbc%3D&reserved=0">DD Commercial Services Portal</a></li>
-            <li><a class="govuk-link" href="https://gbr01.safelinks.protection.outlook.com/?url=https://modgovuk.sharepoint.com/sites/defnet/HOCS/Pages/JSP895.aspx&data=04%7c01%7cAlyson.Fielding105%40mod.gov.uk%7c9c927e0700454a3ba33708d9985e6a2b%7cbe7760ed5953484bae95d0a16dfa09e5%7c0%7c0%7c637708353531752897%7cUnknown%7cTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7c1000&sdata=zxk4B0dhJalZzJbEi8kDg49uITe91BpX7W6fjM9RdZ8%3D&reserved=0">JSP 895</a></li>
+            <li><a class="govuk-link" href="https://www.isms.online/iso-27001/10-2-continual-improvement/">ISO 27001</a></li>
           </ul>
         </aside>
       </div>
