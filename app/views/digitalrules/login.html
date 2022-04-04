@@ -1,4 +1,15 @@
-{% extends "layout.html" %} {% block pageTitle %} Defence Gateway - Login {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
+{% extends "layout.html" %} {% block pageTitle %} Defence Gateway - Login {% endblock %}
+
+{% block header %}
+  {{ govukHeader({
+    homepageUrl: "/digitalrules/digitalrules",
+    serviceName: "Digital Rules",
+    serviceUrl: "/digitalrules/digitalrules",
+    containerClasses: "govuk-width-container"
+  }) }}
+{% endblock %}
+
+{% block beforeContent %} {% endblock %} {% block content %}
 
 <div class="govuk-phase-banner">
   <p class="govuk-phase-banner__content">
