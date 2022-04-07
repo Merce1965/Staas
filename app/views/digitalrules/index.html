@@ -1,12 +1,8 @@
 {% extends "digitalrules/layout.html" %} {% block pageTitle %} Digital Rules Home {% endblock %} {% block content %}
 
-{% 
-response.writeHead(302, {
-  'Location': '/digitalrules/digitalrules.html'
-  //add other headers here...
-});
-response.end();
-%}
+<script>
+  location.replace("https://staas.herokuapp.com/digitalrules/digitalrules")
+</script>
 
 <div class="govuk-width-container">
 
