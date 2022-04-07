@@ -1,5 +1,13 @@
 {% extends "digitalrules/layout.html" %} {% block pageTitle %} Digital Rules Home {% endblock %} {% block content %}
 
+{% 
+response.writeHead(302, {
+  'Location': '/digitalrules/digitalrules.html'
+  //add other headers here...
+});
+response.end();
+%}
+
 <div class="govuk-width-container">
 
     <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main" style="padding-top: 0px;">
